@@ -30,14 +30,14 @@ function applyBlur() {
   overlay.style.background = "rgb(0 0 0 / 68%)";
   overlay.style.zIndex = "10";
 
-  // текст по центру viewport
+  // Placeholder in the viewport center
   if (!document.getElementById(TEXT_ID)) {
     const text = document.createElement("div");
     text.id = TEXT_ID;
     text.style.position = "absolute";
-    text.style.top = "50vh";
+    text.style.top = "40vh";
     text.style.left = "50%";
-    text.style.transform = "translate(-50%, -50%)";
+    text.style.transform = "translate(-50%, 0)";
     text.style.textAlign = "center";
     text.style.zIndex = "11";
     text.style.maxWidth = "80vw";
@@ -58,7 +58,7 @@ function applyBlur() {
     text.appendChild(mainText);
     text.appendChild(hintText);
 
-    document.body.appendChild(text);
+    overlay.appendChild(text);
   }
 
   grid.appendChild(overlay);
