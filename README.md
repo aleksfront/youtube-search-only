@@ -1,9 +1,9 @@
 <p align="center">
   <img src="icon.png" alt="YouTube Search Only icon" width="128" height="128" />
 </p>
-<p align="center">
-# youtube-search-only
-</p>
+<h3 align="center">
+youtube-search-only
+</h3>
 <p align="center">
   <img src="screenshot.png" alt="YouTube Search Only screenshot" width="1280" height="800" />
 </p>
